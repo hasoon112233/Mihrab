@@ -48,6 +48,15 @@ jobs:
           cd mihrab
           npm ci --no-audit
 
+      - name: Generate release signing key
+        run: |
+          keytool -genkeypair \
+            -keystore mihrab/android/app/beast.keystore \
+            -alias beast -keyalg RSA -keysize 2048 -validity 10000 \
+            -storepass beastkey123 -keypass beastkey123 \
+            -dname "CN=Mihrab Beast, OU=Beast, O=Beast, L=Baghdad, ST=Baghdad, C=IQ"
+          printf 'storePassword=beastkey123\nkeyPassword=beastkey123\nkeyAlias=beast\nstoreFile=beast.keystore\n' > mihrab/android/keystore.properties
+
       - name: Build release APK
         run: |
           cd mihrab/android
