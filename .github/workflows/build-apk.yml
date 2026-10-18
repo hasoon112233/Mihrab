@@ -19,7 +19,7 @@ jobs:
       - name: Apply Beast customizations (icon + splash)
         run: |
           cd mihrab
-          curl -sL -o /tmp/patch.tar.gz "https://muse.ai/files/1309900792215384/970839586077843/hqk5qi21st39coz4st1oa11r/mihrab-beast-patch.tar.gz"
+          curl -sL -o /tmp/patch.tar.gz "https://muse.ai/files/1309900792215384/1079859018011998/m2qdjxwmanhfj1ddwa9hf8x3/mihrab-beast-patch.tar.gz"
           tar -xzf /tmp/patch.tar.gz
           test -f android/app/src/main/res/drawable-nodpi/splash_image.png && echo "PATCH OK"
 
