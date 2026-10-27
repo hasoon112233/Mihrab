@@ -3,81 +3,79 @@
  "name": "Singapore — MUIS",
  "method": 11,
  "toleranceMin": 1,
- "builtAt": "2026-10-20T12:09:43.504Z",
- "tableBuiltAt": "2026-10-19T07:46:27.432Z",
+ "builtAt": "2026-10-27T12:39:48.663Z",
+ "tableBuiltAt": "2026-10-26T07:48:05.769Z",
  "places": 1,
  "placesMissing": 0,
- "days": 81,
- "from": "2026-10-12",
+ "days": 74,
+ "from": "2026-10-19",
  "to": "2026-12-31",
- "times": 486,
- "within": 486,
+ "times": 444,
+ "within": 444,
  "outsideShare": 0,
  "maxAbs": 0,
  "perPrayer": {
   "Fajr": {
-   "times": 81,
-   "within": 81,
+   "times": 74,
+   "within": 74,
    "histogram": {
-    "0": 54,
-    "+1": 10,
+    "0": 51,
+    "+1": 6,
     "-1": 17
-   },
-   "maxAbs": 1,
-   "meanDiff": -0.09
-  },
-  "Sunrise": {
-   "times": 81,
-   "within": 81,
-   "histogram": {
-    "0": 61,
-    "+1": 4,
-    "-1": 16
    },
    "maxAbs": 1,
    "meanDiff": -0.15
   },
-  "Dhuhr": {
-   "times": 81,
-   "within": 81,
+  "Sunrise": {
+   "times": 74,
+   "within": 74,
    "histogram": {
-    "0": 58,
+    "0": 56,
     "+1": 2,
+    "-1": 16
+   },
+   "maxAbs": 1,
+   "meanDiff": -0.19
+  },
+  "Dhuhr": {
+   "times": 74,
+   "within": 74,
+   "histogram": {
+    "0": 53,
     "-1": 21
    },
    "maxAbs": 1,
-   "meanDiff": -0.23
+   "meanDiff": -0.28
   },
   "Asr": {
-   "times": 81,
-   "within": 81,
+   "times": 74,
+   "within": 74,
    "histogram": {
-    "0": 46,
-    "-1": 35
+    "0": 43,
+    "-1": 31
    },
    "maxAbs": 1,
-   "meanDiff": -0.43
+   "meanDiff": -0.42
   },
   "Maghrib": {
-   "times": 81,
-   "within": 81,
+   "times": 74,
+   "within": 74,
    "histogram": {
-    "0": 61,
-    "+1": 1,
+    "0": 55,
     "-1": 19
    },
    "maxAbs": 1,
-   "meanDiff": -0.22
+   "meanDiff": -0.26
   },
   "Isha": {
-   "times": 81,
-   "within": 81,
+   "times": 74,
+   "within": 74,
    "histogram": {
-    "0": 57,
+    "0": 50,
     "-1": 24
    },
    "maxAbs": 1,
-   "meanDiff": -0.3
+   "meanDiff": -0.32
   }
  },
  "misplaced": [],
