@@ -3,80 +3,80 @@
  "name": "Malaysia — JAKIM e-Solat",
  "method": 17,
  "toleranceMin": 0,
- "builtAt": "2026-11-10T15:14:09.949Z",
- "tableBuiltAt": "2026-11-09T09:48:40.546Z",
+ "builtAt": "2026-11-17T16:28:35.119Z",
+ "tableBuiltAt": "2026-11-16T09:43:30.305Z",
  "places": 59,
  "placesMissing": 0,
- "days": 3540,
- "from": "2026-11-02",
+ "days": 3127,
+ "from": "2026-11-09",
  "to": "2026-12-31",
- "times": 20880,
- "within": 19778,
- "outsideShare": 0.0528,
+ "times": 18444,
+ "within": 17419,
+ "outsideShare": 0.0556,
  "maxAbs": 1,
  "perPrayer": {
   "Fajr": {
-   "times": 3480,
-   "within": 3372,
+   "times": 3074,
+   "within": 2980,
    "histogram": {
-    "0": 3372,
-    "-1": 40,
-    "+1": 68
+    "0": 2980,
+    "-1": 35,
+    "+1": 59
    },
    "maxAbs": 1,
    "meanDiff": 0.01
   },
   "Sunrise": {
-   "times": 3480,
-   "within": 3263,
+   "times": 3074,
+   "within": 2877,
    "histogram": {
-    "0": 3263,
-    "-1": 198,
-    "+1": 19
+    "0": 2877,
+    "-1": 193,
+    "+1": 4
    },
    "maxAbs": 1,
-   "meanDiff": -0.05
+   "meanDiff": -0.06
   },
   "Dhuhr": {
-   "times": 3480,
-   "within": 3364,
+   "times": 3074,
+   "within": 2958,
    "histogram": {
-    "0": 3364,
+    "0": 2958,
     "-1": 115,
     "+1": 1
    },
    "maxAbs": 1,
-   "meanDiff": -0.03
+   "meanDiff": -0.04
   },
   "Asr": {
-   "times": 3480,
-   "within": 3166,
+   "times": 3074,
+   "within": 2781,
    "histogram": {
-    "0": 3166,
-    "-1": 243,
-    "+1": 71
+    "0": 2781,
+    "-1": 236,
+    "+1": 57
    },
    "maxAbs": 1,
-   "meanDiff": -0.05
+   "meanDiff": -0.06
   },
   "Maghrib": {
-   "times": 3480,
-   "within": 3331,
+   "times": 3074,
+   "within": 2928,
    "histogram": {
-    "0": 3331,
-    "-1": 56,
-    "+1": 93
+    "0": 2928,
+    "-1": 54,
+    "+1": 92
    },
    "maxAbs": 1,
    "meanDiff": 0.01
   },
   "Isha": {
-   "times": 3480,
-   "within": 3282,
+   "times": 3074,
+   "within": 2895,
    "histogram": {
-    "0": 3282,
-    "+1": 182,
-    "-1": 16
+    "0": 2895,
+    "+1": 165,
+    "-1": 14
    },
    "maxAbs": 1,
    "meanDiff": 0.05
@@ -85,7 +85,7 @@
  "misplaced": [
   {
    "place": "Gunung Kinabalu (SBH06)",
-   "days": 60,
+   "days": 53,
    "median": {
     "Fajr": 0,
     "Sunrise": 0,
@@ -110,352 +110,16 @@
  ],
  "worst": [
   {
-   "place": "Alor Setar (KDH01)",
-   "date": "2026-11-02",
-   "prayer": "Sunrise",
-   "theirs": "07:03",
-   "ours": "07:04",
-   "diff": 1
-  },
-  {
-   "place": "Alor Setar (KDH01)",
-   "date": "2026-11-02",
-   "prayer": "Asr",
-   "theirs": "16:25",
-   "ours": "16:24",
-   "diff": -1
-  },
-  {
    "place": "Sungai Petani (KDH02)",
-   "date": "2026-11-02",
-   "prayer": "Sunrise",
-   "theirs": "07:02",
-   "ours": "07:03",
-   "diff": 1
-  },
-  {
-   "place": "Sungai Petani (KDH02)",
-   "date": "2026-11-02",
-   "prayer": "Asr",
-   "theirs": "16:25",
-   "ours": "16:24",
-   "diff": -1
-  },
-  {
-   "place": "Kuala Nerang (KDH03)",
-   "date": "2026-11-02",
-   "prayer": "Sunrise",
-   "theirs": "07:01",
-   "ours": "07:02",
-   "diff": 1
-  },
-  {
-   "place": "Kuala Nerang (KDH03)",
-   "date": "2026-11-02",
-   "prayer": "Asr",
-   "theirs": "16:24",
-   "ours": "16:23",
-   "diff": -1
-  },
-  {
-   "place": "Baling (KDH04)",
-   "date": "2026-11-02",
-   "prayer": "Isha",
-   "theirs": "20:10",
-   "ours": "20:11",
-   "diff": 1
-  },
-  {
-   "place": "Kulim (KDH05)",
-   "date": "2026-11-02",
-   "prayer": "Sunrise",
-   "theirs": "07:01",
-   "ours": "07:02",
-   "diff": 1
-  },
-  {
-   "place": "Kulim (KDH05)",
-   "date": "2026-11-02",
+   "date": "2026-11-09",
    "prayer": "Isha",
    "theirs": "20:11",
    "ours": "20:12",
    "diff": 1
   },
   {
-   "place": "Langkawi (KDH06)",
-   "date": "2026-11-02",
-   "prayer": "Fajr",
-   "theirs": "05:57",
-   "ours": "05:58",
-   "diff": 1
-  },
-  {
-   "place": "Langkawi (KDH06)",
-   "date": "2026-11-02",
-   "prayer": "Sunrise",
-   "theirs": "07:06",
-   "ours": "07:07",
-   "diff": 1
-  },
-  {
-   "place": "Gunung Jerai (KDH07)",
-   "date": "2026-11-02",
-   "prayer": "Sunrise",
-   "theirs": "06:59",
-   "ours": "07:00",
-   "diff": 1
-  },
-  {
-   "place": "Gunung Jerai (KDH07)",
-   "date": "2026-11-02",
-   "prayer": "Asr",
-   "theirs": "16:25",
-   "ours": "16:24",
-   "diff": -1
-  },
-  {
-   "place": "Kangar (PLS01)",
-   "date": "2026-11-02",
-   "prayer": "Fajr",
-   "theirs": "05:55",
-   "ours": "05:56",
-   "diff": 1
-  },
-  {
-   "place": "Temengor (PRK04)",
-   "date": "2026-11-02",
-   "prayer": "Asr",
-   "theirs": "16:20",
-   "ours": "16:21",
-   "diff": 1
-  },
-  {
-   "place": "Kudat (SBH05)",
-   "date": "2026-11-02",
-   "prayer": "Sunrise",
-   "theirs": "06:00",
-   "ours": "05:59",
-   "diff": -1
-  },
-  {
-   "place": "Johor Bahru (JHR02)",
-   "date": "2026-11-03",
-   "prayer": "Maghrib",
-   "theirs": "18:52",
-   "ours": "18:51",
-   "diff": -1
-  },
-  {
-   "place": "Sungai Petani (KDH02)",
-   "date": "2026-11-03",
-   "prayer": "Asr",
-   "theirs": "16:25",
-   "ours": "16:24",
-   "diff": -1
-  },
-  {
    "place": "Baling (KDH04)",
-   "date": "2026-11-03",
-   "prayer": "Isha",
-   "theirs": "20:10",
-   "ours": "20:11",
-   "diff": 1
-  },
-  {
-   "place": "Kulim (KDH05)",
-   "date": "2026-11-03",
-   "prayer": "Isha",
-   "theirs": "20:11",
-   "ours": "20:12",
-   "diff": 1
-  },
-  {
-   "place": "Langkawi (KDH06)",
-   "date": "2026-11-03",
-   "prayer": "Fajr",
-   "theirs": "05:57",
-   "ours": "05:58",
-   "diff": 1
-  },
-  {
-   "place": "Gunung Jerai (KDH07)",
-   "date": "2026-11-03",
-   "prayer": "Asr",
-   "theirs": "16:25",
-   "ours": "16:24",
-   "diff": -1
-  },
-  {
-   "place": "Tampin (NGS01)",
-   "date": "2026-11-03",
-   "prayer": "Asr",
-   "theirs": "16:16",
-   "ours": "16:17",
-   "diff": 1
-  },
-  {
-   "place": "Seremban (NGS03)",
-   "date": "2026-11-03",
-   "prayer": "Asr",
-   "theirs": "16:18",
-   "ours": "16:19",
-   "diff": 1
-  },
-  {
-   "place": "Kangar (PLS01)",
-   "date": "2026-11-03",
-   "prayer": "Fajr",
-   "theirs": "05:55",
-   "ours": "05:56",
-   "diff": 1
-  },
-  {
-   "place": "Sungai Petani (KDH02)",
-   "date": "2026-11-04",
-   "prayer": "Asr",
-   "theirs": "16:25",
-   "ours": "16:24",
-   "diff": -1
-  },
-  {
-   "place": "Baling (KDH04)",
-   "date": "2026-11-04",
-   "prayer": "Isha",
-   "theirs": "20:10",
-   "ours": "20:11",
-   "diff": 1
-  },
-  {
-   "place": "Kulim (KDH05)",
-   "date": "2026-11-04",
-   "prayer": "Isha",
-   "theirs": "20:11",
-   "ours": "20:12",
-   "diff": 1
-  },
-  {
-   "place": "Langkawi (KDH06)",
-   "date": "2026-11-04",
-   "prayer": "Fajr",
-   "theirs": "05:57",
-   "ours": "05:58",
-   "diff": 1
-  },
-  {
-   "place": "Kangar (PLS01)",
-   "date": "2026-11-04",
-   "prayer": "Fajr",
-   "theirs": "05:55",
-   "ours": "05:56",
-   "diff": 1
-  },
-  {
-   "place": "Temengor (PRK04)",
-   "date": "2026-11-04",
-   "prayer": "Sunrise",
-   "theirs": "06:59",
-   "ours": "06:58",
-   "diff": -1
-  },
-  {
-   "place": "Teluk Intan (PRK05)",
-   "date": "2026-11-04",
-   "prayer": "Asr",
-   "theirs": "16:23",
-   "ours": "16:24",
-   "diff": 1
-  },
-  {
-   "place": "Kota Kinabalu (SBH07)",
-   "date": "2026-11-04",
-   "prayer": "Maghrib",
-   "theirs": "17:57",
-   "ours": "17:58",
-   "diff": 1
-  },
-  {
-   "place": "Limbang (SWK01)",
-   "date": "2026-11-04",
-   "prayer": "Sunrise",
-   "theirs": "06:06",
-   "ours": "06:05",
-   "diff": -1
-  },
-  {
-   "place": "Kuala Terengganu (TRG01)",
-   "date": "2026-11-04",
-   "prayer": "Sunrise",
-   "theirs": "06:53",
-   "ours": "06:54",
-   "diff": 1
-  },
-  {
-   "place": "Baling (KDH04)",
-   "date": "2026-11-05",
-   "prayer": "Isha",
-   "theirs": "20:10",
-   "ours": "20:11",
-   "diff": 1
-  },
-  {
-   "place": "Kulim (KDH05)",
-   "date": "2026-11-05",
-   "prayer": "Isha",
-   "theirs": "20:11",
-   "ours": "20:12",
-   "diff": 1
-  },
-  {
-   "place": "Langkawi (KDH06)",
-   "date": "2026-11-05",
-   "prayer": "Fajr",
-   "theirs": "05:57",
-   "ours": "05:58",
-   "diff": 1
-  },
-  {
-   "place": "Seremban (NGS03)",
-   "date": "2026-11-05",
-   "prayer": "Fajr",
-   "theirs": "05:45",
-   "ours": "05:46",
-   "diff": 1
-  },
-  {
-   "place": "Bukit Larut (PRK07)",
-   "date": "2026-11-05",
-   "prayer": "Asr",
-   "theirs": "16:22",
-   "ours": "16:23",
-   "diff": 1
-  },
-  {
-   "place": "Klang (SGR03)",
-   "date": "2026-11-05",
-   "prayer": "Isha",
-   "theirs": "20:11",
-   "ours": "20:10",
-   "diff": -1
-  },
-  {
-   "place": "Sarikei (SWK05)",
-   "date": "2026-11-05",
-   "prayer": "Isha",
-   "theirs": "19:32",
-   "ours": "19:31",
-   "diff": -1
-  },
-  {
-   "place": "Sri Aman (SWK06)",
-   "date": "2026-11-05",
-   "prayer": "Isha",
-   "theirs": "19:32",
-   "ours": "19:33",
-   "diff": 1
-  },
-  {
-   "place": "Baling (KDH04)",
-   "date": "2026-11-06",
+   "date": "2026-11-09",
    "prayer": "Asr",
    "theirs": "16:23",
    "ours": "16:24",
@@ -463,7 +127,7 @@
   },
   {
    "place": "Baling (KDH04)",
-   "date": "2026-11-06",
+   "date": "2026-11-09",
    "prayer": "Isha",
    "theirs": "20:10",
    "ours": "20:11",
@@ -471,95 +135,15 @@
   },
   {
    "place": "Kulim (KDH05)",
-   "date": "2026-11-06",
-   "prayer": "Isha",
-   "theirs": "20:11",
-   "ours": "20:12",
-   "diff": 1
-  },
-  {
-   "place": "Langkawi (KDH06)",
-   "date": "2026-11-06",
-   "prayer": "Fajr",
-   "theirs": "05:57",
-   "ours": "05:58",
-   "diff": 1
-  },
-  {
-   "place": "Kangar (PLS01)",
-   "date": "2026-11-06",
-   "prayer": "Sunrise",
-   "theirs": "07:07",
-   "ours": "07:06",
-   "diff": -1
-  },
-  {
-   "place": "Gerik (PRK03)",
-   "date": "2026-11-06",
-   "prayer": "Asr",
-   "theirs": "16:22",
-   "ours": "16:23",
-   "diff": 1
-  },
-  {
-   "place": "Taiping (PRK06)",
-   "date": "2026-11-06",
+   "date": "2026-11-09",
    "prayer": "Asr",
    "theirs": "16:24",
    "ours": "16:25",
    "diff": 1
   },
   {
-   "place": "Tawau (SBH04)",
-   "date": "2026-11-06",
-   "prayer": "Maghrib",
-   "theirs": "17:53",
-   "ours": "17:52",
-   "diff": -1
-  },
-  {
-   "place": "Alor Setar (KDH01)",
-   "date": "2026-11-07",
-   "prayer": "Fajr",
-   "theirs": "05:56",
-   "ours": "05:55",
-   "diff": -1
-  },
-  {
-   "place": "Sungai Petani (KDH02)",
-   "date": "2026-11-07",
-   "prayer": "Sunrise",
-   "theirs": "07:03",
-   "ours": "07:04",
-   "diff": 1
-  },
-  {
-   "place": "Baling (KDH04)",
-   "date": "2026-11-07",
-   "prayer": "Fajr",
-   "theirs": "05:54",
-   "ours": "05:53",
-   "diff": -1
-  },
-  {
-   "place": "Baling (KDH04)",
-   "date": "2026-11-07",
-   "prayer": "Asr",
-   "theirs": "16:23",
-   "ours": "16:24",
-   "diff": 1
-  },
-  {
-   "place": "Baling (KDH04)",
-   "date": "2026-11-07",
-   "prayer": "Isha",
-   "theirs": "20:10",
-   "ours": "20:11",
-   "diff": 1
-  },
-  {
    "place": "Kulim (KDH05)",
-   "date": "2026-11-07",
+   "date": "2026-11-09",
    "prayer": "Isha",
    "theirs": "20:11",
    "ours": "20:12",
@@ -567,27 +151,443 @@
   },
   {
    "place": "Gunung Jerai (KDH07)",
-   "date": "2026-11-07",
+   "date": "2026-11-09",
    "prayer": "Fajr",
    "theirs": "05:51",
    "ours": "05:50",
    "diff": -1
   },
   {
-   "place": "Genting Sempah (PHG05)",
-   "date": "2026-11-07",
+   "place": "Temengor (PRK04)",
+   "date": "2026-11-09",
+   "prayer": "Asr",
+   "theirs": "16:21",
+   "ours": "16:22",
+   "diff": 1
+  },
+  {
+   "place": "Kuala Terengganu (TRG01)",
+   "date": "2026-11-09",
+   "prayer": "Dhuhr",
+   "theirs": "12:54",
+   "ours": "12:53",
+   "diff": -1
+  },
+  {
+   "place": "Alor Setar (KDH01)",
+   "date": "2026-11-10",
+   "prayer": "Asr",
+   "theirs": "16:26",
+   "ours": "16:25",
+   "diff": -1
+  },
+  {
+   "place": "Sungai Petani (KDH02)",
+   "date": "2026-11-10",
+   "prayer": "Asr",
+   "theirs": "16:26",
+   "ours": "16:25",
+   "diff": -1
+  },
+  {
+   "place": "Kuala Nerang (KDH03)",
+   "date": "2026-11-10",
+   "prayer": "Asr",
+   "theirs": "16:25",
+   "ours": "16:24",
+   "diff": -1
+  },
+  {
+   "place": "Langkawi (KDH06)",
+   "date": "2026-11-10",
+   "prayer": "Fajr",
+   "theirs": "05:58",
+   "ours": "05:59",
+   "diff": 1
+  },
+  {
+   "place": "Gunung Jerai (KDH07)",
+   "date": "2026-11-10",
+   "prayer": "Fajr",
+   "theirs": "05:51",
+   "ours": "05:50",
+   "diff": -1
+  },
+  {
+   "place": "Gunung Jerai (KDH07)",
+   "date": "2026-11-10",
+   "prayer": "Asr",
+   "theirs": "16:26",
+   "ours": "16:25",
+   "diff": -1
+  },
+  {
+   "place": "Kota Bharu (KTN01)",
+   "date": "2026-11-10",
+   "prayer": "Maghrib",
+   "theirs": "18:53",
+   "ours": "18:52",
+   "diff": -1
+  },
+  {
+   "place": "Teluk Intan (PRK05)",
+   "date": "2026-11-10",
+   "prayer": "Asr",
+   "theirs": "16:24",
+   "ours": "16:25",
+   "diff": 1
+  },
+  {
+   "place": "Taiping (PRK06)",
+   "date": "2026-11-10",
    "prayer": "Sunrise",
-   "theirs": "06:52",
-   "ours": "06:53",
+   "theirs": "07:03",
+   "ours": "07:02",
+   "diff": -1
+  },
+  {
+   "place": "Sandakan (SBH01)",
+   "date": "2026-11-10",
+   "prayer": "Sunrise",
+   "theirs": "05:56",
+   "ours": "05:55",
+   "diff": -1
+  },
+  {
+   "place": "Kuala Terengganu (TRG01)",
+   "date": "2026-11-10",
+   "prayer": "Sunrise",
+   "theirs": "06:54",
+   "ours": "06:55",
+   "diff": 1
+  },
+  {
+   "place": "Kuala Terengganu (TRG01)",
+   "date": "2026-11-10",
+   "prayer": "Maghrib",
+   "theirs": "18:50",
+   "ours": "18:49",
+   "diff": -1
+  },
+  {
+   "place": "Jerteh (TRG02)",
+   "date": "2026-11-10",
+   "prayer": "Isha",
+   "theirs": "20:03",
+   "ours": "20:04",
+   "diff": 1
+  },
+  {
+   "place": "Alor Setar (KDH01)",
+   "date": "2026-11-11",
+   "prayer": "Asr",
+   "theirs": "16:26",
+   "ours": "16:25",
+   "diff": -1
+  },
+  {
+   "place": "Sungai Petani (KDH02)",
+   "date": "2026-11-11",
+   "prayer": "Asr",
+   "theirs": "16:26",
+   "ours": "16:25",
+   "diff": -1
+  },
+  {
+   "place": "Sungai Petani (KDH02)",
+   "date": "2026-11-11",
+   "prayer": "Maghrib",
+   "theirs": "19:01",
+   "ours": "19:00",
+   "diff": -1
+  },
+  {
+   "place": "Kuala Nerang (KDH03)",
+   "date": "2026-11-11",
+   "prayer": "Asr",
+   "theirs": "16:25",
+   "ours": "16:24",
+   "diff": -1
+  },
+  {
+   "place": "Baling (KDH04)",
+   "date": "2026-11-11",
+   "prayer": "Asr",
+   "theirs": "16:25",
+   "ours": "16:24",
+   "diff": -1
+  },
+  {
+   "place": "Baling (KDH04)",
+   "date": "2026-11-11",
+   "prayer": "Maghrib",
+   "theirs": "19:00",
+   "ours": "18:59",
+   "diff": -1
+  },
+  {
+   "place": "Kulim (KDH05)",
+   "date": "2026-11-11",
+   "prayer": "Asr",
+   "theirs": "16:26",
+   "ours": "16:25",
+   "diff": -1
+  },
+  {
+   "place": "Kulim (KDH05)",
+   "date": "2026-11-11",
+   "prayer": "Maghrib",
+   "theirs": "19:01",
+   "ours": "19:00",
+   "diff": -1
+  },
+  {
+   "place": "Kulim (KDH05)",
+   "date": "2026-11-11",
+   "prayer": "Isha",
+   "theirs": "20:13",
+   "ours": "20:12",
+   "diff": -1
+  },
+  {
+   "place": "Kota Bharu (KTN01)",
+   "date": "2026-11-11",
+   "prayer": "Fajr",
+   "theirs": "05:48",
+   "ours": "05:49",
+   "diff": 1
+  },
+  {
+   "place": "Kota Bharu (KTN01)",
+   "date": "2026-11-11",
+   "prayer": "Isha",
+   "theirs": "20:00",
+   "ours": "20:01",
+   "diff": 1
+  },
+  {
+   "place": "Lahad Datu (SBH03)",
+   "date": "2026-11-11",
+   "prayer": "Asr",
+   "theirs": "15:14",
+   "ours": "15:13",
+   "diff": -1
+  },
+  {
+   "place": "Kuala Terengganu (TRG01)",
+   "date": "2026-11-11",
+   "prayer": "Maghrib",
+   "theirs": "18:50",
+   "ours": "18:49",
+   "diff": -1
+  },
+  {
+   "place": "Sungai Petani (KDH02)",
+   "date": "2026-11-12",
+   "prayer": "Sunrise",
+   "theirs": "07:04",
+   "ours": "07:05",
+   "diff": 1
+  },
+  {
+   "place": "Sungai Petani (KDH02)",
+   "date": "2026-11-12",
+   "prayer": "Maghrib",
+   "theirs": "19:01",
+   "ours": "19:00",
+   "diff": -1
+  },
+  {
+   "place": "Baling (KDH04)",
+   "date": "2026-11-12",
+   "prayer": "Maghrib",
+   "theirs": "19:00",
+   "ours": "18:59",
+   "diff": -1
+  },
+  {
+   "place": "Kulim (KDH05)",
+   "date": "2026-11-12",
+   "prayer": "Asr",
+   "theirs": "16:26",
+   "ours": "16:25",
+   "diff": -1
+  },
+  {
+   "place": "Kulim (KDH05)",
+   "date": "2026-11-12",
+   "prayer": "Maghrib",
+   "theirs": "19:01",
+   "ours": "19:00",
+   "diff": -1
+  },
+  {
+   "place": "Kulim (KDH05)",
+   "date": "2026-11-12",
+   "prayer": "Isha",
+   "theirs": "20:13",
+   "ours": "20:12",
+   "diff": -1
+  },
+  {
+   "place": "Gunung Jerai (KDH07)",
+   "date": "2026-11-12",
+   "prayer": "Fajr",
+   "theirs": "05:50",
+   "ours": "05:51",
+   "diff": 1
+  },
+  {
+   "place": "Kangar (PLS01)",
+   "date": "2026-11-12",
+   "prayer": "Fajr",
+   "theirs": "05:56",
+   "ours": "05:57",
    "diff": 1
   },
   {
    "place": "Gerik (PRK03)",
-   "date": "2026-11-07",
+   "date": "2026-11-12",
    "prayer": "Asr",
-   "theirs": "16:22",
-   "ours": "16:23",
+   "theirs": "16:23",
+   "ours": "16:24",
    "diff": 1
+  },
+  {
+   "place": "Taiping (PRK06)",
+   "date": "2026-11-12",
+   "prayer": "Asr",
+   "theirs": "16:25",
+   "ours": "16:26",
+   "diff": 1
+  },
+  {
+   "place": "Kudat (SBH05)",
+   "date": "2026-11-12",
+   "prayer": "Sunrise",
+   "theirs": "06:02",
+   "ours": "06:01",
+   "diff": -1
+  },
+  {
+   "place": "Sarikei (SWK05)",
+   "date": "2026-11-12",
+   "prayer": "Isha",
+   "theirs": "19:32",
+   "ours": "19:33",
+   "diff": 1
+  },
+  {
+   "place": "Sri Aman (SWK06)",
+   "date": "2026-11-12",
+   "prayer": "Isha",
+   "theirs": "19:33",
+   "ours": "19:34",
+   "diff": 1
+  },
+  {
+   "place": "Serian (SWK07)",
+   "date": "2026-11-12",
+   "prayer": "Isha",
+   "theirs": "19:36",
+   "ours": "19:37",
+   "diff": 1
+  },
+  {
+   "place": "Sungai Petani (KDH02)",
+   "date": "2026-11-13",
+   "prayer": "Maghrib",
+   "theirs": "19:01",
+   "ours": "19:00",
+   "diff": -1
+  },
+  {
+   "place": "Baling (KDH04)",
+   "date": "2026-11-13",
+   "prayer": "Maghrib",
+   "theirs": "19:00",
+   "ours": "18:59",
+   "diff": -1
+  },
+  {
+   "place": "Kulim (KDH05)",
+   "date": "2026-11-13",
+   "prayer": "Asr",
+   "theirs": "16:26",
+   "ours": "16:25",
+   "diff": -1
+  },
+  {
+   "place": "Kulim (KDH05)",
+   "date": "2026-11-13",
+   "prayer": "Maghrib",
+   "theirs": "19:01",
+   "ours": "19:00",
+   "diff": -1
+  },
+  {
+   "place": "Kulim (KDH05)",
+   "date": "2026-11-13",
+   "prayer": "Isha",
+   "theirs": "20:13",
+   "ours": "20:12",
+   "diff": -1
+  },
+  {
+   "place": "Gunung Jerai (KDH07)",
+   "date": "2026-11-13",
+   "prayer": "Fajr",
+   "theirs": "05:50",
+   "ours": "05:51",
+   "diff": 1
+  },
+  {
+   "place": "Kangar (PLS01)",
+   "date": "2026-11-13",
+   "prayer": "Fajr",
+   "theirs": "05:56",
+   "ours": "05:57",
+   "diff": 1
+  },
+  {
+   "place": "Beluran (SBH02)",
+   "date": "2026-11-13",
+   "prayer": "Isha",
+   "theirs": "19:06",
+   "ours": "19:07",
+   "diff": 1
+  },
+  {
+   "place": "Lahad Datu (SBH03)",
+   "date": "2026-11-13",
+   "prayer": "Sunrise",
+   "theirs": "05:54",
+   "ours": "05:53",
+   "diff": -1
+  },
+  {
+   "place": "Sri Aman (SWK06)",
+   "date": "2026-11-13",
+   "prayer": "Maghrib",
+   "theirs": "18:21",
+   "ours": "18:22",
+   "diff": 1
+  },
+  {
+   "place": "Kuching (SWK08)",
+   "date": "2026-11-13",
+   "prayer": "Sunrise",
+   "theirs": "06:24",
+   "ours": "06:23",
+   "diff": -1
+  },
+  {
+   "place": "Sungai Petani (KDH02)",
+   "date": "2026-11-14",
+   "prayer": "Maghrib",
+   "theirs": "19:01",
+   "ours": "19:00",
+   "diff": -1
   }
  ]
 }
